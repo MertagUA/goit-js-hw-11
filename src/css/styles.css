@@ -1,0 +1,100 @@
+.is-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  background-color: rgb(57, 57, 191);
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+input {
+  width: 85%;
+  border-radius: 10px;
+  border: transparent;
+}
+
+.search-form {
+  display: flex;
+  justify-content: space-between;
+
+  width: 300px;
+  height: 40px;
+}
+
+.search-form button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  border: transparent;
+  border-radius: 5px;
+}
+.load-more {
+  width: 200px;
+  height: 40px;
+
+  margin-top: 20px;
+
+  background-color: rgb(57, 57, 191);
+  color: #ffffff;
+  border-radius: 10px;
+  border: transparent;
+  text-align: center;
+}
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.photo-card {
+  width: 350px;
+
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 0px 5px 5px;
+}
+
+.photo-image {
+  display: block;
+  width: 100%;
+  height: 250px;
+}
+
+.photo-link {
+  display: block;
+  height: 250px;
+}
+
+.photo-link:hover {
+  cursor: zoom-in;
+}
+
+.info {
+  display: flex;
+  gap: 15px;
+
+  padding: 10px;
+}
