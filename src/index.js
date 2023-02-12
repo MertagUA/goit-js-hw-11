@@ -46,6 +46,7 @@ async function onRequestToApi() {
 
         if (totalHits === 0) {
             Notify.failure("Sorry, there are no images matching your search query. Please try again.");
+            loadMoreBtnIsHidden();
             return;
         }
 
